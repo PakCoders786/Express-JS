@@ -22,7 +22,7 @@ app.get('/products',(req,res) => {
     res.json(products)
     
 });
-
+// we send data from backend to frontend using json file
 app.listen(5000,()=>{
     console.log("Server Up !")
 })
